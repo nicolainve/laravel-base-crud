@@ -6,6 +6,8 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
     </head>
 
     @include('partials.header')
@@ -16,6 +18,6 @@
 
     @include('partials.footer')
 
-    <script src="{{ asset('dist/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
 </html>
